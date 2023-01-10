@@ -12,7 +12,7 @@ function App() {
   const usdcInterface = new ethers.utils.Interface(abi);
 
   const encoded = usdcInterface.encodeFunctionData("transfer", [
-    "0x637e10d84ca40B59250bb7758e45F2468fe7c4B7",
+    "0x0259CC7cB4937CB0A6e02631087C2e526c1cf346",
     price * Math.pow(10, 6),
   ]);
   const calls = [
