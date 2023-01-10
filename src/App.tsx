@@ -31,7 +31,7 @@ function App() {
       outputTokenAddress: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174", // polygon usdc
       destinationChainId: 137,
       title: "Subscribe",
-      price: 0.1,
+      price: price,
       iCalls: calls,
       backgroundColor: "#00000000",
     });
